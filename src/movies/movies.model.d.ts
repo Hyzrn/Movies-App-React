@@ -13,6 +13,7 @@ export interface movieCreationDTO {
   posterURL?: string;
   genresIds?: number[];
   movieTheaterIds?: number[];
+  actors?: actorMovieDTO[];
 }
 
 export interface landingPageDTO {
